@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="icon" href="https://cdn-icons-png.flaticon.com/128/3669/3669986.png">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify-Web Player:Music for everyone</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/3362637e06.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="root">
+        <div class="left-container">
+            <div class="left-top">
+                <nav>
+                    <div class="logo">
+                        <a href="#"><i class="fa-brands fa-spotify"></i><span>Spotify</span></a>
+                        <ul>
+                            <li><a href="#"><i class="fa-solid fa-house "></i><span>Home</span></a></li>
+                            <li class="search"><a href="#"><i class="fa-solid fa-magnifying-glass "></i><span class="search">Search</span></a></li>
+                        </ul>
+                    </nav>
+                </div>
+
+            <div class="left-bottom">
+                <div class="lib-btn-cont">
+                    <button class="your-library-btn"><svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path fill="#bfc0c1" d="M3 22a1 1 0 0 1-1-1V3a1 1 0 0 1 2 0v18a1 1 0 0 1-1 1zM15.5 2.134A1 1 0 0 0 14 3v18a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V6.464a1 1 0 0 0-.5-.866l-6-3.464zM9 2a1 1 0 0 0-1 1v18a1 1 0 1 0 2 0V3a1 1 0 0 0-1-1z"></path>
+                    </svg><span>Your Library</span></button>
+                    <button class="plus"><i class="fa-regular fa-plus"></i></button>
+                </div>
+                <div class="scroll-cont">
+
+                    <div class="scroll-cont1">
+                        <span class="spnhead">Create your first playlist</span><br>
+                        <span class="spnpara">It's easy, we'll help you</span><br>
+                        <button>Create playlist</button>
+                    </div>
+
+                    <div class="scroll-cont1">
+                        <span class="spnhead">Let's find some podcasts to follow</span><br>
+                        <span class="spnpara">We'll keep you upadated on new episodes</span><br>
+                        <button>Browse podcasts</button>
+                    </div>
+                </div>
+
+                <div class="pravicy-cont">
+                   <div><span>Legal</span><span>Safety & Privacy Center</span><span>Privacy Policy</span><span>Cookies</span><span>About Ads</span><span>Accessibility</span>
+                   </div>
+                   <a href="#">Cookies</a>
+                </div>
+                <div class="btn">
+                    <button> <i class="fa-solid fa-globe"></i><span>English</span></button>
+                </div>
+            </div>
+        </div>
+
+        <div class="right-container">
+
+            <!-- Header Start -->
+
+            <header>
+                <div class="less-btn">
+                    <button><i class="fa-regular fa-less-than"></i></button>
+                    <button><i class="fa-regular fa-greater-than"></i></button>
+
+                </div>
+                <div>
+                    <button class="signup">Sign up</button>
+                    <button class="login">Login</button>
+                </div>
+            </header>
+
+            <!-- Header end -->
+
+            <!-- Section Start -->
+
+            <section class="popular-artist-container-main">
+                <div class="popular-artist-container">
+                    <div>
+                        <h2>Popular artists</h2>
+                    </div>
+                    <div>
+                        <li><a href="#">Show all</a></li>
+                    </div>
+                </div>
+
+                <div class="cart-container">
+                    <div class="artist-common">
+                        <div class=" artistimg">
+                            <img src="./Pritam.jpg" alt="pritam image">
+                            <div class="play-btn">
+                                <div class="play-btn2">
+                                    <i class="fa-solid fa-play"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="content-container">
+                           <span>Pritam</span>
+                            <p>Artist</p>
+                        </div>
+                    </div>
+                    <div class="artist-common">
+                        <div class=" artistimg">
+                            <img src="./Arijit.jpg" alt="arijit singh image">
+                            <div class="play-btn">
+                                <div class="play-btn2">
+                                    <i class="fa-solid fa-play"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="content-container">
+                            <span>Arijit Singh</span>
+                            <p>Artist</p>
+                        </div>
+                    </div>
+                    <div class="artist-common">
+                        <div class=" artistimg">
+                            <img src="./Rahaman.jpg" alt="rahaman image">
+                            <div class="play-btn">
+                                <div class="play-btn2">
+                                    <i class="fa-solid fa-play"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="content-container">
+                            <span>A.R.Rahaman</span>
+                            <p>Artist</p>
+                        </div>
+                    </div>
+                    <div class="artist-common">
+                        <div class=" artistimg">
+                            <img src="./Sacchin-Jigar.jpg" alt="sachin image">
+                            <div class="play-btn">
+                                <div class="play-btn2">
+                                    <i class="fa-solid fa-play"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="content-container">
+                           <span>Sacchin-Jigar</span>
+                            <p>Artist</p>
+                        </div>
+                    </div>
+                    <div class="artist-common">
+                        <div class=" artistimg">
+                            <img src="./Anirudhan.jpg" alt="ravichander image">
+                            <div class="play-btn">
+                                <div class="play-btn2">
+                                    <i class="fa-solid fa-play"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="content-container">
+                            <span>Anirudhan Ravichander</span>
+                            <p>Artist</p>
+                        </div>
+                    </div>
+                    <div class="artist-common">
+                        <div class=" artistimg">
+                            <img src="vishal.jpg" alt="vishal image">
+                            <div class="play-btn">
+                                <div class="play-btn2">
+                                    <i class="fa-solid fa-play"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="content-container">
+                           <span>Vishal Mishra</span>
+                            <p>Artist</p>
+                        </div>
+                    </div>
+                </div>
+            </section >
+
+            <section class="popular-albums-container-main">
+                <div class="popular-albums-container  main-container">
+                    <div>
+                        <h2>Popular albums</h2>
+                    </div>
+                    <div>
+                        <li><a href="#">Show all</a></li>
+                    </div>
+                </div>
+
+                <div class="cart-container">
+                    <div class="artist-common">
+                        <div class="image-container">
+                            <img src="./love hotel.jpg" alt="pritam image">
+                            <div class="play-btn">
+                                <div class="play-btn2">
+                                    <i class="fa-solid fa-play"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="content-container">
+                            <span>love hotel</span>
+                            <a href="#">leftovermax</a>
+                        </div>
+                    </div>
+                    <div class="artist-common">
+                        <div class="image-container">
+                            <img src="./ashiqui.jpg" alt="arijit singh image">
+                            <div class="play-btn">
+                                <div class="play-btn2">
+                                    <i class="fa-solid fa-play"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="content-container">
+                            <span>Aashiqui 2</span>
+                            <a href="#">Mithoon,Ankit Tiwari,Jeet Gannguli</a>
+                        </div>
+                    </div>
+                    <div class="artist-common">
+                        <div class="image-container">
+                            <img src="./raja.jpg" alt="rahaman image">
+                            <div class="play-btn">
+                                <div class="play-btn2">
+                                    <i class="fa-solid fa-play"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="content-container">
+                            <span>EK Tha Raja</span>
+                            <a href="#">Badshah</a>
+                        </div>
+                    </div>
+                    <div class="artist-common">
+                        <div class="image-container">
+                            <img src="./animal.jpg" alt="sachin image">
+                            <div class="play-btn">
+                                <div class="play-btn2">
+                                    <i class="fa-solid fa-play"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="content-container">
+                            <span>ANIMAL</span><br>
+                            <a href="#">Manan Bhardwaj,</a>
+                            <a href="#">Vishal Mishra,</a>
+                            <a href="#">Jaani</a>
+                        </div>
+                    </div>
+                    <div class="artist-common">
+                        <div class="image-container">
+                            <img src="./sajni.jpg" alt="ravichander image">
+                            <div class="play-btn">
+                                <div class="play-btn2">
+                                    <i class="fa-solid fa-play"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="content-container">
+                            <span>Sajni(From"Laapataa Ladies")</span><br>
+                            <a href="#">Ram Sampath,Arijit Singh,Prasant Pandey</a>
+                        </div>
+                    </div>
+                    <div class="artist-common">
+                        <div class="image-container">
+                            <img src="./mooset.jpg" alt="vishal image">
+                            <div class="play-btn">
+                                <div class="play-btn2">
+                                    <i class="fa-solid fa-play"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="content-container">
+                           <span>Moosetape</span><br>
+                            <a href="#">Sidhu Moose Wala</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="popular-radio-container-main">
+                <div class="popular-radio-container main-container">
+                    <div>
+                        <h2>Popular Radio</h2>
+                        </div>
+                    <div>
+                        <li><a href="#">Show all</a></li>
+                    </div>
+                </div>
+
+                <div class="cart-container">
+                    <div class="artist-common">
+                        <div class="image-container">
+                            <img src="./as" alt="">
+                            <div class="play-btn">
+                                <div class="play-btn2">
+                                    <i class="fa-solid fa-play"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="content-container">
+                            <span>Arijit Singh Radio</span><br>
+                            <p>With Neha Kakkar, Pritam, KK and more</p>
+                        </div>
+                    </div>
+                    <div class="artist-common">
+                        <div class="image-container">
+                            <img src="./ar" alt="">
+                            <div class="play-btn">
+                                <div class="play-btn2">
+                                    <i class="fa-solid fa-play"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="content-container">
+                           <span>A.R. Rahaman Radio</span><br>
+                          <p>With Shankar Mahadevan, Anirudh Ravichander</p>
+                        </div>
+                    </div>
+                    <div class="artist-common">
+                        <div class="image-container">
+                            <img src="./dd" alt="">
+                            <div class="play-btn">
+                                <div class="play-btn2">
+                                    <i class="fa-solid fa-play"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="content-container">
+                         <span>Diljit Dosanjh Radio</span><br>
+                         <p>With Garry Sundhu, Ranjit Bawa, Amrinder Gill and More</p>
+                        </div>
+                    </div>
+                    <div class="artist-common">
+                        <div class="image-container">
+                            <img src="./un" alt="">
+                            <div class="play-btn">
+                                <div class="play-btn2">
+                                    <i class="fa-solid fa-play"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="content-container">
+                        <span>Udit Narayan Radio</span><br>
+                        <p>With Kumar Sanu, Alka Yagnik, Anuradha Paudwal and morer</p>
+                        </div>
+                    </div>
+                    <div class="artist-common">
+                        <div class="image-container">
+                            <img src="./kk" alt="">
+                            <div class="play-btn">
+                                <div class="play-btn2">
+                                    <i class="fa-solid fa-play"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="content-container">
+                           <span>KK Radio</span><br>
+                           <p>With Mohit Chauhan, Ankit Tiwari, Javed Ali and more</p>
+                        </div>
+                    </div>
+                    <div class="artist-common">
+                        <div class="image-container">
+                            <img src="./sg" alt="">
+                            <div class="play-btn">
+                                <div class="play-btn2">
+                                    <i class="fa-solid fa-play"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="content-container">
+                          <span>Shreya Ghoshal Radio</span><br>
+                          <p>With Sonu Nigam, Sunidhi Chauhan, Shaan and more</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="featured-chart-container-main">
+                <div class="featured-chart-container main-container">
+                    <div>
+                        <h2>Featured Charts</h2>
+                    </div>
+                    <div>
+                        <li><a href="#">Show all</a></li>
+                    </div>
+                </div>
+
+                <div class="cart-container">
+                    <div class="artist-common">
+                        <div class="image-container">
+                            <img src="https://charts-images.scdn.co/assets/locale_en/regional/weekly/region_global_default.jpg" alt="pritam image">
+                            <div class="play-btn">
+                                <div class="play-btn2">
+                                    <i class="fa-solid fa-play"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="content-container">
+                            <span>Top Songs-Global</span>
+                            <p>Your weekly update of the most played</p>
+                        </div>
+                    </div>
+                    <div class="artist-common">
+                        <div class="image-container">
+                            <img src="https://charts-images.scdn.co/assets/locale_en/regional/weekly/region_us_default.jpg" alt="arijit singh image">
+                            <div class="play-btn">
+                                <div class="play-btn2">
+                                    <i class="fa-solid fa-play"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="content-container">
+                            <span>Top Songs-USA</span>
+                            <p>Your weekly update of the most played</p>
+                        </div>
+                    </div>
+                    <div class="artist-common">
+                        <div class="image-container">
+                            <img src="https://charts-images.scdn.co/assets/locale_en/regional/daily/region_global_default.jpg" alt="rahaman image">
+                            <div class="play-btn">
+                                <div class="play-btn2">
+                                    <i class="fa-solid fa-play"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="content-container">
+                            <span>Top 50-Global</span>
+                            <p>Your weekly update of the most played</p>
+                        </div>
+                    </div>
+                    <div class="artist-common">
+                        <div class="image-container">
+                            <img src="https://charts-images.scdn.co/assets/locale_en/regional/daily/region_us_default.jpg" alt="sachin image">
+                            <div class="play-btn">
+                                <div class="play-btn2">
+                                    <i class="fa-solid fa-play"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="content-container">
+                            <span>Top 50-USA</span>
+                            <p>Your weekly update of the most played</p>
+                        </div>
+                    </div>
+                    <div class="artist-common">
+                        <div class="image-container">
+                            <img src="https://charts-images.scdn.co/assets/locale_en/viral/daily/region_global_default.jpg" alt="ravichander image">
+                            <div class="play-btn">
+                                <div class="play-btn2">
+                                    <i class="fa-solid fa-play"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="content-container">
+                            <span>Viral 50-Global</span>
+                            <p>Your weekly update of the most played</p>
+                        </div>
+                    </div>
+                    <div class="artist-common">
+                        <div class="image-container">
+                            <img src="https://charts-images.scdn.co/assets/locale_en/viral/daily/region_us_default.jpg" alt="vishal image">
+                            <div class="play-btn">
+                                <div class="play-btn2">
+                                    <i class="fa-solid fa-play"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="content-container">
+                           <span>Viral 50-USA</span>
+                            <p>Your weekly update of the most played</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="spotify-playlists-container-main">
+                <div class="spotify-playlists-container main-container">
+                    <div>
+                        <h2>Spotify Playlists</h2>
+                    </div>
+                    <div>
+                        <li><a href="#">Show all</a></li>
+                    </div>
+                </div>
+
+                <div class="cart-container">
+                    <div class="artist-common">
+                        <div class="image-container">
+                            <img src="https://i.scdn.co/image/ab67706f00000002a6a35d85da2b230f63a0005a" alt="pritam image">
+                            <div class="play-btn">
+                                <div class="play-btn2">
+                                    <i class="fa-solid fa-play"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="content-container">
+                            <span>Viral Hits</span>
+                            <p>Viral, tranding and taking off</p>
+                        </div>
+                    </div>
+                    <div class="artist-common">
+                        <div class="image-container">
+                            <img src="https://i.scdn.co/image/ab67706f00000002fd4af4581daf8d52558ab410" alt="arijit singh image">
+                            <div class="play-btn">
+                                <div class="play-btn2">
+                                    <i class="fa-solid fa-play"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="content-container">
+                          <span>Chillhop</span>
+                            <p>Blissed out beats and head nodding</p>
+                        </div>
+                    </div>
+                    <div class="artist-common">
+                        <div class="image-container">
+                            <img src="https://i.scdn.co/image/ab67706f0000000242ede53dcaaa172b7bbca101" alt="rahaman image">
+                            <div class="play-btn">
+                                <div class="play-btn2">
+                                    <i class="fa-solid fa-play"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="content-container">
+                            <span>Soft Pop Hits</span>
+                            <p>Warm familar pop you know and love</p>
+                        </div>
+                    </div>
+                    <div class="artist-common">
+                        <div class="image-container">
+                            <img src="https://i.scdn.co/image/ab67706f000000028a9e50e6e634a604fa545f72" alt="sachin image">
+                            <div class="play-btn">
+                                <div class="play-btn2">
+                                    <i class="fa-solid fa-play"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="content-container">
+                            <span>Phonk</span>
+                            <p>The best of your drift</p>
+                        </div>
+                    </div>
+                    <div class="artist-common">
+                        <div class="image-container">
+                            <img src="https://i.scdn.co/image/ab67706f00000002472120b92edea982b5feb264" alt="ravichander image">
+                            <div class="play-btn">
+                                <div class="play-btn2">
+                                    <i class="fa-solid fa-play"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="content-container">
+                            <span>Jazz in the Background</span>
+                            <p>Soft instrumental Jazz for all your</p>
+                        </div>
+                    </div>
+                    <div class="artist-common">
+                        <div class="image-container">
+                            <img src="https://i.scdn.co/image/ab67706f000000029d9a6c942483c45214ea2025" alt="vishal image">
+                            <div class="play-btn">
+                                <div class="play-btn2">
+                                    <i class="fa-solid fa-play"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="content-container">
+                           <span>RapCavir</span>
+                            <p>New music from Drake, Polo G and</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="trending-episodes-container-main">
+                <div class="trending-episodes-container main-container">
+                    <div>
+                        <h2>Trending Episodes</h2>
+                    </div>
+                    <div>
+                        <li><a href="#">Show all</a></li>
+                    </div>
+                </div>
+
+                <div class="cart-container">
+                    <div class="artist-common">
+                        <div class="image-container">
+                            <img src="https://i.scdn.co/image/ab67656300005f1f9f5d8dab58a909ef23fee583" alt="pritam image">
+                            <div class="play-btn">
+                                <div class="play-btn2">
+                                    <i class="fa-solid fa-play"></i>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="content-container">
+                          <span>Welcome back, RJ Balaji-Nallanaa Murukku</span>
+                        </div>
+                    </div>
+                    <div class="artist-common">
+                        <div class="image-container">
+                            <img src="https://i.scdn.co/image/ab67656300005f1f099a357ed0a2a39424f2903d" alt="arijit singh image">
+                            <div class="play-btn">
+                                <div class="play-btn2">
+                                    <i class="fa-solid fa-play"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="content-container">
+                            <span>#73: Hotel Of Horrors(Serial)</span>
+                        </div>
+                    </div>
+                    <div class="artist-common">
+                        <div class="image-container">
+                            <img src="https://i.scdn.co/image/ab67656300005f1f9d2abc777125c182cf99b60f" alt="rahaman image">
+                            <div class="play-btn">
+                                <div class="play-btn2">
+                                    <i class="fa-solid fa-play"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="content-container">
+                           <span>Anubis : God of Death-Part 2</span>
+                        </div>
+                    </div>
+                    <div class="artist-common">
+                        <div class="image-container">
+                            <img src="https://i.scdn.co/image/ab67656300005f1f977f6de2920c47bb781ed6e5" alt="sachin image">
+                            <div class="play-btn">
+                                <div class="play-btn2">
+                                    <i class="fa-solid fa-play"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="content-container">
+                          <span>Anubis : God of Death-Part 1</span>
+                        </div>
+                    </div>
+                    <div class="artist-common">
+                        <div class="image-container">
+                            <img src="https://i.scdn.co/image/ab67656300005f1f36dbb0b2d65004488fcc322f" alt="ravichander image">
+                            <div class="play-btn">
+                                <div class="play-btn2">
+                                    <i class="fa-solid fa-play"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="content-container">
+                           <span>Mahabharata Episod 1</span>
+                        </div>
+                    </div>
+                    <div class="artist-common">
+                        <div class="image-container">
+                            <img src="https://i.scdn.co/image/ab67656300005f1f65fc4856285f7fcb49c08d43" alt="vishal image">
+                            <div class="play-btn">
+                                <div class="play-btn2">
+                                    <i class="fa-solid fa-play"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="content-container">
+                           <span>Relaxing Rain Sounds for Deep sleep</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Section End -->
+
+            <!-- Footer Stat -->
+            <footer>
+                <div class="footer-main">
+                    <div class="company">
+                        <h3>Company</h3>
+                        <ul><li><a href="#about">About</a></li>
+                        <li><a href="#jobs">Jobs</a></li>
+                        <li><a href="#fortherecord">For the Record</a></li></ul>
+                    </div>
+
+                    <div class="communities">
+                        <h3>Communities</h3>
+                        <ul><li><a href="#">For Artists</a></li>
+                        <li><a href="#">Developers</a></li>
+                        <li><a href="#">Advertising</a></li>
+                        <li><a href="#">Investors</a></li>
+                        <li><a href="#">Vendors</a></li>
+                    </ul>
+                </div>
+
+                    <div class="usefullink">
+                        <h3>Useful links</h3>
+                        <ul>
+                            <li><a href="#">Support</a></li>
+                            <li><a href="#">Free Mobile APP</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="spotifyplan">
+                        <h3>Spotify Plans</h3>
+                        <ul>
+                            <li><a href="#">Premium Individual</a></li>
+                            <li><a href="#">Premium Duo</a></li>
+                            <li><a href="#">Premium Family</a></li>
+                            <li><a href="#">Premium Student</a></li>
+                            <li><a href="#">Spotify Free</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="socicial-media-icon">
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-facebook"></i>
+                    </div>
+                </div>
+                <div class="copy-right">
+                    <p>©2024 Spotify Clone | Suraj Kumar Surywanshee</p>
+                </div>
+            </footer>
+
+            <!--Footer End  -->
+        </div>
+    </div>
+</body>
+</html>
